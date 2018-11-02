@@ -8,7 +8,8 @@ function start() {
    setTimeout(function(){
       var element = document.getElementById("validationButton");
       if (element) element.click();
-   },2000);
+      alert('clicked');
+   },5000);
 }
 
 
